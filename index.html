@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Мій навчальний сайт</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; }
+    nav { background: #333; padding: 10px; }
+    nav a { color: white; margin-right: 15px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 20px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#/">Головна</a>
+    <a href="#/about">Про нас</a>
+    <a href="#/services">Послуги</a>
+    <a href="#/blog">Блог</a>
+    <a href="#/contact">Контакти</a>
+  </nav>
+
+  <main id="app">
+    <!-- Вміст вибраної сторінки буде завантажуватися сюди -->
+  </main>
+
+  <script type="module" src="router.js"></script>
+</body>
+</html>
